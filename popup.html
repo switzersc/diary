@@ -6,9 +6,13 @@
   </head>
   <body>
     <h1>Add Event</h1>
-    <label for="title">Title</label>
-    <input type="text" id="title"  placeholder="Event Title">
-    <button data-event="saveEvent">Save Event</button>
+    <form name="eventForm">
+      <label for="title">Title</label>
+      <input name="title" type="text" id="title"  placeholder="Event title">
+      <input name="date" type="date" id="date" placeholder="Event date">
+      <input name="time" type="time" id="time" placeholder="Event time">
+      <button data-event="saveEvent">Save Event</button>
+    </form>
   </body>
 </html>
 
