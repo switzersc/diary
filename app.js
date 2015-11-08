@@ -1,3 +1,10 @@
+OAuth.initialize('pOiyl5ikbJx6QZsocg-wdSwZWCY')
+debugger
+OAuth.popup('google').done(function(result) {
+    console.log(result)
+    // do some stuff with result
+})
+
 var formData = {}
 
 document.addEventListener('DOMContentLoaded', function() {
