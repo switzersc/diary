@@ -1,0 +1,23 @@
+{
+  "name": "diary",
+  "version": "1.0.0",
+  "description": "Chrome browser extension for posting formmated event data to a shared Google Calendar.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/switzersc/diary.git"
+  },
+  "keywords": [],
+  "author": "Shelby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/switzersc/diary/issues"
+  },
+  "homepage": "https://github.com/switzersc/diary",
+  "dependencies": {
+    "oauthio-web": "^0.4.4"
+  }
+}
